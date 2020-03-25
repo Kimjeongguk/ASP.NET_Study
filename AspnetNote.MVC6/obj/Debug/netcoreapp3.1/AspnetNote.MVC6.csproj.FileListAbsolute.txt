@@ -127,3 +127,4 @@ C:\Users\minds\source\repos\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp3.1\A
 C:\Users\minds\source\repos\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp3.1\AspnetNote.MVC6.pdb
 C:\Users\minds\source\repos\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\minds\source\repos\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp3.1\AspnetNote.MVC6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\start\source\repos\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp3.1\libman.json

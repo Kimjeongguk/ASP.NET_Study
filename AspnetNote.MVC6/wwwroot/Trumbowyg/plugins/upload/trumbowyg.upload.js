@@ -15,8 +15,8 @@
     'use strict';
 
     var defaultOptions = {
-        serverPath: '',
-        fileFieldName: 'fileToUpload',
+        serverPath: '/api/upload',
+        fileFieldName: 'file',
         data: [],                       // Additional data for ajax [{name: 'key', value: 'value'}]
         headers: {},                    // Additional headers
         xhrFields: {},                  // Additional fields
@@ -109,7 +109,7 @@
                 uploadError: 'Hata'
             },
             ko: {
-                upload: '그림 올리기',
+                upload: '이미지 업로드',
                 file: '파일',
                 uploadError: '에러'
             },
