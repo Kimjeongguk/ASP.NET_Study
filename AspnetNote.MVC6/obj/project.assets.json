@@ -1829,23 +1829,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\start\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\minds\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\start\\source\\repos\\AspnetNote\\AspnetNote.MVC6\\AspnetNote.MVC6.csproj",
+      "projectUniqueName": "C:\\Users\\minds\\source\\repos\\AspnetNote\\AspnetNote.MVC6\\AspnetNote.MVC6.csproj",
       "projectName": "AspnetNote.MVC6",
-      "projectPath": "C:\\Users\\start\\source\\repos\\AspnetNote\\AspnetNote.MVC6\\AspnetNote.MVC6.csproj",
-      "packagesPath": "C:\\Users\\start\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\start\\source\\repos\\AspnetNote\\AspnetNote.MVC6\\obj\\",
+      "projectPath": "C:\\Users\\minds\\source\\repos\\AspnetNote\\AspnetNote.MVC6\\AspnetNote.MVC6.csproj",
+      "packagesPath": "C:\\Users\\minds\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\minds\\source\\repos\\AspnetNote\\AspnetNote.MVC6\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\start\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\minds\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

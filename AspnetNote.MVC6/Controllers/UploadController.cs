@@ -21,19 +21,20 @@ namespace AspnetNote.MVC6.Controllers
         }
         // GET: /<controller>/
         [HttpPost, Route("api/upload")]
-        public IActionResult ImageUpload(IFormFile file)
+        public async Task<IActionResult> ImageUpload(IFormFile file)
         {
             //#이미지나 파일을 업로드 할 때 필요한 구성
             //1.Parh(경로) - 어디다 저장할지 결정
             var path = Path.Combine(_environment.WebRootPath, @"images\upload");
             //2.Namw(이름) - DateTime, GUID + GUID
-            var fileName = file.FileName;
+            var fileFullName = file.FileName.Split('.');
+            var fileName = $"{Guid.NewGuid()}.{fileFullName[1]}";
             //3.Extension(확장자) -jpg, png, txt....
-            using(var fileStream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
+            using (var fileStream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
             {
-                file.CopyTo(fileStream);
+                await file.CopyToAsync(fileStream);
             }
-            return Ok();
+            return Ok(new { file = "/images/upload/" + fileName, success = true });
         }
     }
 }
